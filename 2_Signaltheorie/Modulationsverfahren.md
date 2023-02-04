@@ -8,5 +8,5 @@
   - Beispiele:
     - 16-QAM -> 4 $Bit \over Symbol$
     - 64-QAM -> 6 $Bit \over Symbol$
-    - 256-QAM -> 8 $ Bit \over Symbol$
+    - 256-QAM -> 8 $Bit \over Symbol$
 - **D**ifferential **Q**uadrature **P**hase **S**hift **K**eying (**DQPSK**)
