@@ -54,7 +54,6 @@ $$C = 2B*ld(m)$$
 - ld := Logarithmus zur Basis 2
 - m := Anzahl der unterscheidbaren Symbole
 
-
 ## Kanalkapazität
 
 $$ C = B*ld(1 + SNR)$$
@@ -69,4 +68,3 @@ $$ C = B*ld(1 + SNR)$$
 - Ist eine theoretische Obergrenze für die Kanalkapazität, die nur bei Nutzung von perfekten Codewörtern erreicht wird. Daher dient die Shannon'sche Kanalkapazität nur als Abschätzung für die zu erwartende Datenraten eines Übertragungssystems
 - es wird ein AWGN-Kanal angenommen
   - additives, weißes Rauschen (Rauschen im gesamten Spektrum gleichstark)
-
