@@ -76,6 +76,23 @@
 - Multicast
   - ``FF00::/8``
 - Migrationsadressen
-  - 6to4
+  - 6to4 
+    - Routing von IPv6 Adressen über ein IPv4 Netzwerk
+    - Nutzung des Präfix ``2002::/16``
   - IPv4-kompatibel
+    - IPv4 Adresse ``192.0.2.1`` wird ``::C000:0201`` (**::IPv4_Adresse**)
+    - mittlerweile als veraltet betrachtet und nicht mehr empfohlen
   - IPv4-mapped
+    - IPv4 Adresse ``192.0.2.1`` wird zu ``::FFFF:C000:0201`` (**::FFFF:IPv4_Adresse**)
+    - mittlerweile als veraltet betrachtet und nicht mehr empfohlen
+- spezielle und reservierte Adressen:
+  - ``::1``: Loopback
+  - ``::``: nicht definierte IP (wie ``0.0.0.0`` in IPv4)
+- Adressbereiche
+  - ``00``: Migration IPv4 zu IPv6
+  - ``01``: nicht vergeben
+  - ``02`` - ``03``: reserviert für NSAP-Adressen
+    - eher selten angetroffen, weil NSAP in nicht TCP/IP-Netzwerken Anwendung findet -> TCP/IP ist der Protokoll-Stack in einem Großteil von Netzwerken
+  - ``FE80`` bis ``FEBF``: Link-local
+  - ``FEC0`` bis ``FEFF``: site-local
+  - ``FF``: Multicastadressen
