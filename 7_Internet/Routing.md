@@ -97,7 +97,7 @@
   - **Split Horizon**
     - Route die über einen anderen Router gelernt wurde wird nicht an den Router gesendet 
   - **Split Horizon mit Poison Reverse**
-    - Route, die ich von einem anderen gelernt habe, propagiere ich an den mit der Metrik 16
+    - Route, die ich von einem anderen gelernt habe, propagiere ich mit der Metrik 16
   - **Triggered Updates**
     - direkt nach Routenänderung werden Updates versendet
     - kürzere Konvergenzzeit
